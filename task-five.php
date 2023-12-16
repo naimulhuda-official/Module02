@@ -9,7 +9,7 @@
 <?php
 
 
-$a=10;
+$a=40;
 $b=30;
 $c=60;
 $d=70;
@@ -17,10 +17,19 @@ $d=70;
 if($a<$b){
 
     echo $b . "is bigger than" . $a;
+
 }
 else{
 
     echo $a . "is smaiier than" . $b ;
+}
+
+if( $c==$d){
+
+    echo $c . "is equal to" . $d;
+}
+else{
+    echo $c . "is not equal to" .$d;
 }
 
 ?>    
