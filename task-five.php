@@ -14,9 +14,13 @@ $b=30;
 $c=60;
 $d=70;
 
-if($a+$b){
+if($a<$b){
 
-    echo strrev($a);
+    echo $b . "is bigger than" . $a;
+}
+else{
+
+    echo $a . "is smaiier than" . $b ;
 }
 
 ?>    
