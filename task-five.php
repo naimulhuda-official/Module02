@@ -13,6 +13,10 @@ $a=40;
 $b=30;
 $c=60;
 $d=70;
+$username="Naimul huda";
+$password=1234567;
+$rollnumber=2020234169;
+
 
 if($a<$b){
 
@@ -30,11 +34,25 @@ if( $c==$d){
 }
 else{
     echo $c . "is not equal to" .$d;
+
+}
+
+if($username=="Naimul huda"){
+
+    echo "You are most welcome" . $username;
+
+if( $password=== 123456){
+        echo $password . "is right";
+    }
+else{
+        echo $password . "is incorrect ";
+    }
+}
+else{
+    echo $username . "Your Username ise incorrect";
 }
 
 ?>    
-
-
 
 </body>
 </html>
